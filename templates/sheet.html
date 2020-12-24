@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block main %}
+
+ <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Here you go!</h1>
+
+    <!-- http://getbootstrap.com/docs/4.1/components/forms/ -->
+    <form action="/sheet" method="post">
+
+<h2 class="display-1">(you're welcome)</h2>
+
+
+
+
+
+<body>
+
+  <p>
+
+  <a href={{variable}}><target="_blank"></target><h1>Perfect Episode</h1></a>
+  open in a new tab in case you want to complain later
+  </p>
+<br>So, uh, how'd it go? <br>
+ <select name="fit">
+            <option name="fit">vewygoo</option>
+            <option name="fit">not goo</option>
+        </select>
+
+<br>
+not goo!? so the episode was...
+<br>
+      <form>
+        <select name="change">
+            <option name="change"><value="1"></value>Other People</option>
+            <option name="change"><value="2"></value>Religion</option>
+             <option name="change"><value="3"></value>God</option>
+            <option name="change"><value="4"></value>Politics</option>
+             <option name="change"><value="5"></value>Celebrities</option>
+            <option name="change"><value="6"></value>Culture</option>
+             <option name="change"><value="7"></value>Thinking</option>
+            <option name="change"><value="8"></value>Shock</option>
+             <option name="change"><value="9"></value>Lesson</option>
+            <option name="change"><value="10"></value>Parody</option>
+        </select>
+
+    <select name="difference">
+            <option name="difference">Too much</option>
+            <option name="difference">Too little</option>
+        </select>
+
+
+
+         <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
+        <br>
+        <button class="btn btn-primary" type="submit">Submit</button>
+
+        </form>
+
+
+
+       <script>
+
+        /* TODO */
+
+    </script>
+
+
+</body>
+{% endblock %}

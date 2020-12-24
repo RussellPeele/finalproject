@@ -1,0 +1,318 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+
+
+    <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Brace Yourself...</h1>
+
+
+
+    <!-- http://getbootstrap.com/docs/4.1/components/forms/ -->
+    <form action="/form" method="post">
+
+
+
+
+        On a scale of -10(Hate) to 0(Don't care) to 10 (Love), <br>
+
+        <br>
+
+
+        How are you feeling about...<br>
+
+
+<br>
+        Other people in general?
+        <select name="selfless">
+            <option name="selfless"><value="-10">-10</option>
+            <option name="selfless"><value="-9">-9</option>
+            <option name="selfless"><value="-8">-8</option>
+            <option name="selfless"><value="-7">-7</option>
+            <option name="selfless"><value="-6">-6</option>
+            <option name="selfless"><value="-5">-5</option>
+            <option name="selfless"><value="-4">-4</option>
+            <option name="selfless"><value="-3">-3</option>
+            <option name="selfless"><value="-2">-2</option>
+            <option name="selfless"><value="-1">-1</option>
+            <option name="selfless"><value="0">0</option>
+            <option name="selfless"><value="1">1</option>
+            <option name="selfless"><value="2">2</option>
+            <option name="selfless"><value="3">3</option>
+            <option name="selfless"><value="4">4</option>
+            <option name="selfless"><value="5">5</option>
+            <option name="selfless"><value="6">6</option>
+            <option name="selfless"><value="7">7</option>
+            <option name="selfless"><value="8">8</option>
+            <option name="selfless"><value="9">9</option>
+            <option name="selfless"><value="10">10</option>
+        </select>
+
+        <br>
+        Religion?
+        <select name="religion">
+            <option name="religion"><value="-10">-10</option>
+            <option name="religion"><value="-9">-9</option>
+            <option name="religion"><value="-8">-8</option>
+            <option name="religion"><value="-7">-7</option>
+            <option name="religion"><value="-6">-6</option>
+            <option name="religion"><value="-5">-5</option>
+            <option name="religion"><value="-4">-4</option>
+            <option name="religion"><value="-3">-3</option>
+            <option name="religion"><value="-2">-2</option>
+            <option name="religion"><value="-1">-1</option>
+            <option name="religion"><value="0">0</option>
+            <option name="religion"><value="1">1</option>
+            <option name="religion"><value="2">2</option>
+            <option name="religion"><value="3">3</option>
+            <option name="religion"><value="4">4</option>
+            <option name="religion"><value="5">5</option>
+            <option name="religion"><value="6">6</option>
+            <option name="religion"><value="7">7</option>
+            <option name="religion"><value="8">8</option>
+            <option name="religion"><value="9">9</option>
+            <option name="religion"><value="10">10</option>
+
+            </select>
+
+        <br>
+        God?
+        <select name="god">
+            <option name="god"><value="-10">-10</option>
+            <option name="god"><value="-9">-9</option>
+            <option name="god"><value="-8">-8</option>
+            <option name="god"><value="-7">-7</option>
+            <option name="god"><value="-6">-6</option>
+            <option name="god"><value="-5">-5</option>
+            <option name="god"><value="-4">-4</option>
+            <option name="god"><value="-3">-3</option>
+            <option name="god"><value="-2">-2</option>
+            <option name="god"><value="-1">-1</option>
+            <option name="god"><value="0">0</option>
+            <option name="god"><value="1">1</option>
+            <option name="god"><value="2">2</option>
+            <option name="god"><value="3">3</option>
+            <option name="god"><value="4">4</option>
+            <option name="god"><value="5">5</option>
+            <option name="god"><value="6">6</option>
+            <option name="god"><value="7">7</option>
+            <option name="god"><value="8">8</option>
+            <option name="god"><value="9">9</option>
+            <option name="god"><value="10">10</option>
+            </select>
+            <br>
+
+
+
+        Politics?
+        <select name="politics">
+            <option name="politics"><value="-10">-10</option>
+            <option name="politics"><value="-9">-9</option>
+            <option name="politics"><value="-8">-8</option>
+            <option name="politics"><value="-7">-7</option>
+            <option name="politics"><value="-6">-6</option>
+            <option name="politics"><value="-5">-5</option>
+            <option name="politics"><value="-4">-4</option>
+            <option name="politics"><value="-3">-3</option>
+            <option name="politics"><value="-2">-2</option>
+            <option name="politics"><value="-1">-1</option>
+            <option name="politics"><value="0">0</option>
+            <option name="politics"><value="1">1</option>
+            <option name="politics"><value="2">2</option>
+            <option name="politics"><value="3">3</option>
+            <option name="politics"><value="4">4</option>
+            <option name="politics"><value="5">5</option>
+            <option name="politics"><value="6">6</option>
+            <option name="politics"><value="7">7</option>
+            <option name="politics"><value="8">8</option>
+            <option name="politics"><value="9">9</option>
+            <option name="politics"><value="10">10</option>
+            </select>
+            <br>
+
+
+
+
+        Celebrities?
+        <select name="celebrities">
+            <option name="celebrities"><value="-10">-10</option>
+            <option name="celebrities"><value="-9">-9</option>
+            <option name="celebrities"><value="-8">-8</option>
+            <option name="celebrities"><value="-7">-7</option>
+            <option name="celebrities"><value="-6">-6</option>
+            <option name="celebrities"><value="-5">-5</option>
+            <option name="celebrities"><value="-4">-4</option>
+            <option name="celebrities"><value="-3">-3</option>
+            <option name="celebrities"><value="-2">-2</option>
+            <option name="celebrities"><value="-1">-1</option>
+            <option name="celebrities"><value="0">0</option>
+            <option name="celebrities"><value="1">1</option>
+            <option name="celebrities"><value="2">2</option>
+            <option name="celebrities"><value="3">3</option>
+            <option name="celebrities"><value="4">4</option>
+            <option name="celebrities"><value="5">5</option>
+            <option name="celebrities"><value="6">6</option>
+            <option name="celebrities"><value="7">7</option>
+            <option name="celebrities"><value="8">8</option>
+            <option name="celebrities"><value="9">9</option>
+            <option name="celebrities"><value="10">10</option>
+
+            </select>
+            <br>
+
+
+
+        Contemporary Culture?
+        <select name="culture">
+            <option name="culture"><value="-10">-10</option>
+            <option name="culture"><value="-9">-9</option>
+            <option name="culture"><value="-8">-8</option>
+            <option name="culture"><value="-7">-7</option>
+            <option name="culture"><value="-6">-6</option>
+            <option name="culture"><value="-5">-5</option>
+            <option name="culture"><value="-4">-4</option>
+            <option name="culture"><value="-3">-3</option>
+            <option name="culture"><value="-2">-2</option>
+            <option name="culture"><value="-1">-1</option>
+            <option name="culture"><value="0">0</option>
+            <option name="culture"><value="1">1</option>
+            <option name="culture"><value="2">2</option>
+            <option name="culture"><value="3">3</option>
+            <option name="culture"><value="4">4</option>
+            <option name="culture"><value="5">5</option>
+            <option name="culture"><value="6">6</option>
+            <option name="culture"><value="7">7</option>
+            <option name="culture"><value="8">8</option>
+            <option name="culture"><value="9">9</option>
+            <option name="culture"><value="10">10</option>
+
+            </select>
+            <br>
+
+        Are you in the mood for:
+        Thinking?
+        <select name="thinking">
+            <option name="thinking"><value="-10">-10</option>
+            <option name="thinking"><value="-9">-9</option>
+            <option name="thinking"><value="-8">-8</option>
+            <option name="thinking"><value="-7">-7</option>
+            <option name="thinking"><value="-6">-6</option>
+            <option name="thinking"><value="-5">-5</option>
+            <option name="thinking"><value="-4">-4</option>
+            <option name="thinking"><value="-3">-3</option>
+            <option name="thinking"><value="-2">-2</option>
+            <option name="thinking"><value="-1">-1</option>
+            <option name="thinking"><value="0">0</option>
+            <option name="thinking"><value="1">1</option>
+            <option name="thinking"><value="2">2</option>
+            <option name="thinking"><value="3">3</option>
+            <option name="thinking"><value="4">4</option>
+            <option name="thinking"><value="5">5</option>
+            <option name="thinking"><value="6">6</option>
+            <option name="thinking"><value="7">7</option>
+            <option name="thinking"><value="8">8</option>
+            <option name="thinking"><value="9">9</option>
+            <option name="thinking"><value="10">10</option>
+
+            </select>
+            <br>
+
+        Shock?
+        <select name="shock">
+            <option name="shock"><value="-10">-10</option>
+            <option name="shock"><value="-9">-9</option>
+            <option name="shock"><value="-8">-8</option>
+            <option name="shock"><value="-7">-7</option>
+            <option name="shock"><value="-6">-6</option>
+            <option name="shock"><value="-5">-5</option>
+            <option name="shock"><value="-4">-4</option>
+            <option name="shock"><value="-3">-3</option>
+            <option name="shock"><value="-2">-2</option>
+            <option name="shock"><value="-1">-1</option>
+            <option name="shock"><value="0">0</option>
+            <option name="shock"><value="1">1</option>
+            <option name="shock"><value="2">2</option>
+            <option name="shock"><value="3">3</option>
+            <option name="shock"><value="4">4</option>
+            <option name="shock"><value="5">5</option>
+            <option name="shock"><value="6">6</option>
+            <option name="shock"><value="7">7</option>
+            <option name="shock"><value="8">8</option>
+            <option name="shock"><value="9">9</option>
+            <option name="shock"><value="10">10</option>
+
+            </select>
+            <br>
+
+        Satire?
+        <select name="lesson">
+            <option name="lesson"><value="-10">-10</option>
+            <option name="lesson"><value="-9">-9</option>
+            <option name="lesson"><value="-8">-8</option>
+            <option name="lesson"><value="-7">-7</option>
+            <option name="lesson"><value="-6">-6</option>
+            <option name="lesson"><value="-5">-5</option>
+            <option name="lesson"><value="-4">-4</option>
+            <option name="lesson"><value="-3">-3</option>
+            <option name="lesson"><value="-2">-2</option>
+            <option name="lesson"><value="-1">-1</option>
+            <option name="lesson"><value="0">0</option>
+            <option name="lesson"><value="1">1</option>
+            <option name="lesson"><value="2">2</option>
+            <option name="lesson"><value="3">3</option>
+            <option name="lesson"><value="4">4</option>
+            <option name="lesson"><value="5">5</option>
+            <option name="lesson"><value="6">6</option>
+            <option name="lesson"><value="7">7</option>
+            <option name="lesson"><value="8">8</option>
+            <option name="lesson"><value="9">9</option>
+            <option name="lesson"><value="10">10</option>
+
+            </select>
+            <br>
+
+
+        Parody ?
+        <select name="parody">
+            <option name="parody"><value="-10">-10</option>
+            <option name="parody"><value="-9">-9</option>
+            <option name="parody"><value="-8">-8</option>
+            <option name="parody"><value="-7">-7</option>
+            <option name="parody"><value="-6">-6</option>
+            <option name="parody"><value="-5">-5</option>
+            <option name="parody"><value="-4">-4</option>
+            <option name="parody"><value="-3">-3</option>
+            <option name="parody"><value="-2">-2</option>
+            <option name="parody"><value="-1">-1</option>
+            <option name="parody"><value="0">0</option>
+            <option name="parody"><value="1">1</option>
+            <option name="parody"><value="2">2</option>
+            <option name="parody"><value="3">3</option>
+            <option name="parody"><value="4">4</option>
+            <option name="parody"><value="5">5</option>
+            <option name="parody"><value="6">6</option>
+            <option name="parody"><value="7">7</option>
+            <option name="parody"><value="8">8</option>
+            <option name="parody"><value="9">9</option>
+            <option name="parody"><value="10">10</option>
+
+        </select>
+        <br>
+        </p>
+
+
+
+        <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
+        <br>
+        <button class="btn btn-primary" type="submit">Submit</button>
+
+    </form>
+
+    <script>
+
+        /* TODO */
+
+    </script>
+
+{% endblock %}
